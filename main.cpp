@@ -9,7 +9,7 @@ int main()
 
     std::ifstream file("in.txt");
     if (!file.is_open()) {
-        std::cout << "Íå óäàëîñü îòêðûòü ôàéë!" << std::endl;
+        std::cout << "Ð½Ðµ ÑƒÐ´Ð°Ð»Ð¾ÑÑŒ Ð¾Ñ‚ÐºÑ€Ñ‹Ñ‚ÑŒ Ñ„Ð°Ð¹Ð»!" << std::endl;
         return 1;
     }
 
